@@ -1,0 +1,38 @@
+.number{
+    background-color:#183D3D;
+    color: #93B1A6;
+    border: none;
+
+}
+.signs{
+    background-color: #5C8374;
+    color:black;
+    border: none;
+}
+.equals{
+    color:black;
+    border: none;
+    background-color: #2E8A99;
+}
+.ac{
+    background-color: #FF5200;
+    color: black;
+    border: none;
+}
+.delete{
+    background-color: #F45050;
+    border: none;
+    color: black;
+}
+.extra{
+    background-color: #17594A;
+    border: none;
+    color: black;
+}
+
+.box-ac{
+    box-shadow: 2px 5px 60px #FF0000;
+}
+.box-X{
+    box-shadow: 2px 5px 60px #AF0404;
+}

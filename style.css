@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+.outer
+{
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 3vh;
+    width: 50%;
+    height: 92vh;
+    position: relative;
+    overflow: hidden;
+    background-color:#040D12;
+}
+h1{
+    font-family: 'Wallpoet', cursive;
+    color:#8B9A46;
+    letter-spacing: 10px;
+}
+.centre{
+    text-align: center;
+}
+input{
+    width: 80%;
+    height: 10%;
+    position: absolute;
+    left: 5vw;
+    font-size: 5vh;
+    padding: 4px;
+    outline: none;
+    box-sizing: border-box;
+    text-align: right;
+    border-radius: 10px;
+    font-family: 'Andika', sans-serif;
+    background-color: #93B1A6;
+    box-sizing: border-box;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 32vh;
+    width: 80%;
+    justify-content: space-around;
+    left: 5vw;
+    height: 55vh;
+    transition: .7s;
+}
+button{
+    font-family: 'Andika', sans-serif;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 100px;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    font-size: 5vh;
+}
+button:active{
+    background-color: azure;
+}
+
+.buttons2{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 29vh;
+    width: 80%;
+    justify-content: space-around;
+    left: 50vw;
+    border: 1px solid black;
+    height: 60vh;
+    overflow: scroll;
+    transition: .7s;
+}
+.buttons2 button{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 100px;
+    font-size: 3vh;
+}
+.button2:active{
+    background-color: azure;
+}
+
+.buttons2 table{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#change{
+    height: 5vh;
+    width: 3vw;
+    position: absolute;
+    left: 4vw;
+    top: 22vh;
+    font-size: 2vh;
+    background-color: #006E7F;
+    color:#93B1A6;
+    border: none;
+    border-radius: 90px;
+
+}
+.toggle{
+    left:-50vw;
+}
+.toggle2{
+    left:5vw;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        background-color: #040D12;
+    }
+    h1{
+        font-family: 'Wallpoet', cursive;
+        color:#8B9A46;
+        letter-spacing: 5px;
+    }
+    .outer
+    {
+    
+        margin: auto;
+        margin-top: 1vh;
+        width: 100%;
+        height: 95vh;
+        position: relative;
+        overflow: hidden;
+    }
+    input{
+        width: 90%;
+        height: 8vh;
+        position: absolute;
+        left: 4vw;
+        font-size: 5vh;
+        padding: 4px;
+        outline: none;
+        box-sizing: border-box;
+        text-align: right;
+        top: 10vh;
+     
+    }
+    .buttons button:active{
+        background-color: azure;
+    }
+    
+   
+    .buttons{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 30vh;
+        width: 90%;
+        justify-content: space-around;
+        left: 5vw;
+     
+        height: 55vh;
+        transition: .7s;
+    }
+    .buttons2{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 30vh;
+        width: 90%;
+        justify-content: space-around;
+        left: 100vw;
+        height: 58vh;
+        transition: .7s;
+    }
+    .button2 button:active{
+        background-color: azure;
+    }
+    table button{
+        height: 6vh;
+        width: 6vh;
+        border-radius: 100px;
+        font-size: 2vh;
+        
+    }
+    .buttons2 button{
+        padding: 4px;
+        height: 6vh;
+        width: 6vh;
+        border-radius: 100px;
+        font-size: 3vh;
+    }
+    .buttons2 table td{
+        width: fit-content;
+    }
+    #change{
+        height: 5vh;
+        width: 5vh;
+        position: absolute;
+        left: 78vw;
+        top: 20vh;
+        color: #032D3C;
+        
+    }
+    .toggle{
+        left:-100vw;
+    }
+    .toggle2{
+        left:5vw;
+    }
+  }
